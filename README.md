@@ -1,2 +1,2 @@
 # E-commerce
-My first E-Ecommerce Website using HTML, CSS, JavaScript
+My first E-commerce Website using HTML, CSS, JavaScript

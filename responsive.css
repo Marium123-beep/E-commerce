@@ -1,0 +1,45 @@
+@media screen and (max-width:1000px){
+    nav{
+        flex-direction: column;
+    }
+
+    .slider{
+        height: 30vh;
+    }
+    .log{
+        justify-content: center;
+        margin: 12px 0px;
+    }
+
+    nav ul{
+        justify-content: center;
+        height: 30px;
+    }
+
+    .search{
+        justify-content: center;
+    }
+
+    .search input{
+        margin: 12px 16px;
+    }
+}
+/* Media query for medium screen sizes */
+@media screen and (max-width: 768px) {
+    .swiper-button-next,
+    .swiper-button-prev {
+        display: none !important;
+    }
+
+    .swiper-slide {
+        flex: 0 0 auto; /* Cards ka size automatically adjust hoga */
+        width: 30%; /* 3 cards dikhane ke liye width 30% rakhein */
+        max-width: 250px; /* Max width taake bohot bade na ho */
+        
+    }
+
+  
+
+
+}
+
